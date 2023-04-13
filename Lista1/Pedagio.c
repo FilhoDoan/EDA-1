@@ -8,20 +8,12 @@ int main()
        K = custo por km
        P = valor de cada pedagio
      */
-    int L, D;
-    int K, P;
+    int L, D, K, P;
     int precoTotal;
-    int numPedagio;
-    scanf("%d", &L);
-    scanf("%d\n", &D);
-    scanf("%d", &K);
-    scanf("%d", &P);
+    scanf("%d %d %d %d", &L, &D, &K, &P);
 
-    if (L >= 1 && D <= 100000)
-    {   
-        numPedagio = L/D;    
-        precoTotal = (L*K) + numPedagio*P;
+        precoTotal = (L*K) + (L/D)*P;
 
         printf("%d", precoTotal);
-    }
+    
 }
