@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int main()
 {
@@ -12,6 +11,6 @@ int main()
 
     scanf("%d %d %d %d %d %d", &a, &b, &c, &x, &y, &z);
 
-    printf("%d\n", (x/a) * (y/b)) * (z/c); //  calcula a quantidade da base na qual a nave pode suportar
-                                                 //   calcula quantos conteiners podem ser empilhados a partir da base
+    printf("%d\n", (x/a)*(y/b)*(z/c)); //  calcula a quantidade da base na qual a nave pode suportar
+                                       //  calcula quantos conteiners podem ser empilhados a partir da base
 }
