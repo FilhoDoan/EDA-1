@@ -19,7 +19,7 @@ int main(){
             printf("B");
         }else if(c != a && c != b){
             printf("C");
-        }else if (a == b == c) {
+        }else{
             printf("Empate");
         }
 
