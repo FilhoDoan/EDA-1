@@ -19,8 +19,7 @@ int main (){
                 alerta ++;
             }
 
-    } printf("%d", alerta);
-     if(alerta > 0){
+    }if(alerta > 0){
         printf("S");
      }else{
      printf("N");
